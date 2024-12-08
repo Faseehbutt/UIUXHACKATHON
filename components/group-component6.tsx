@@ -135,12 +135,12 @@ const GroupComponent6: NextPage<GroupComponent6Type> = ({ className = "" }) => {
                 <div className="h-[30px] w-[30px] relative rounded-8xs bg-moccasin hidden" />
                 <div className="relative z-[1]">L</div>
               </div>
-              <div className="rounded-8xs bg-snow flex flex-row items-start justify-start py-[5px] px-2 z-[1]">
-                <div className="h-[30px] w-[30px] relative rounded-8xs bg-snow hidden" />
+              <div className="rounded-8xs bg-snow-200 flex flex-row items-start justify-start py-[5px] px-2 z-[1]">
+                <div className="h-[30px] w-[30px] relative rounded-8xs bg-snow-200 hidden" />
                 <div className="relative z-[1]">XL</div>
               </div>
-              <div className="rounded-8xs bg-snow flex flex-row items-start justify-start py-[5px] px-[7px] z-[1]">
-                <div className="h-[30px] w-[30px] relative rounded-8xs bg-snow hidden" />
+              <div className="rounded-8xs bg-snow-200 flex flex-row items-start justify-start py-[5px] px-[7px] z-[1]">
+                <div className="h-[30px] w-[30px] relative rounded-8xs bg-snow-200 hidden" />
                 <div className="relative z-[1]">XS</div>
               </div>
             </div>

@@ -104,7 +104,11 @@ const Contact: NextPage = () => {
         </div>
       </section>
       <GroupComponent3 />
-      <GroupComponent2 aboutTextDecoration="none" />
+      <GroupComponent2
+        aboutTextDecoration="none"
+        groupFooterBackgroundColor="#fff"
+        groupFooterMarginTop="unset"
+      />
     </div>
   );
 };

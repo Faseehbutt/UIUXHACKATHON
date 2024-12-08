@@ -6,11 +6,15 @@ export type GroupComponent2Type = {
 
   /** Style props */
   aboutTextDecoration?: CSSProperties["textDecoration"];
+  groupFooterBackgroundColor?: CSSProperties["backgroundColor"];
+  groupFooterMarginTop?: CSSProperties["marginTop"];
 };
 
 const GroupComponent2: NextPage<GroupComponent2Type> = ({
   className = "",
   aboutTextDecoration,
+  groupFooterBackgroundColor,
+  groupFooterMarginTop,
 }) => {
   const aboutStyle: CSSProperties = useMemo(() => {
     return {
@@ -18,9 +22,17 @@ const GroupComponent2: NextPage<GroupComponent2Type> = ({
     };
   }, [aboutTextDecoration]);
 
+  const groupFooterStyle: CSSProperties = useMemo(() => {
+    return {
+      backgroundColor: groupFooterBackgroundColor,
+      marginTop: groupFooterMarginTop,
+    };
+  }, [groupFooterBackgroundColor, groupFooterMarginTop]);
+
   return (
     <footer
       className={`self-stretch bg-white flex flex-col items-start justify-start pt-[98px] px-[100px] pb-[38px] box-border gap-12 max-w-full text-left text-base text-darkgray font-poppins mq750:gap-6 mq750:pt-16 mq750:px-[50px] mq750:pb-[25px] mq750:box-border mq450:pl-5 mq450:pr-5 mq450:box-border ${className}`}
+      style={groupFooterStyle}
     >
       <div className="w-[1440px] h-[555px] relative bg-white hidden max-w-full" />
       <div className="w-[1135px] flex flex-row items-start justify-start py-0 px-0.5 box-border max-w-full">

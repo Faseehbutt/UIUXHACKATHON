@@ -1,34 +1,26 @@
 import type { NextPage } from "next";
-import GroupComponent from "../components/group-component";
-import GroupComponent4 from "../components/group-component4";
-import GroupComponent13 from "../components/group-component13";
-import GroupComponent12 from "../components/group-component12";
-import GroupComponent3 from "../components/group-component3";
-import GroupComponent2 from "../components/group-component2";
+import GroupComponent19 from "../components/group-component19";
+import HeroContent from "../components/hero-content";
+import GroupComponent20 from "../components/group-component20";
+import GroupComponent21 from "../components/group-component21";
+import NewArrivalImage from "../components/new-arrival-image";
+import GroupComponent22 from "../components/group-component22";
+import FrameComponent4 from "../components/frame-component4";
 
-const Checkout: NextPage = () => {
+const Home: NextPage = () => {
   return (
     <div className="w-full relative bg-white overflow-hidden flex flex-col items-start justify-start leading-[normal] tracking-[normal]">
-      <GroupComponent
-        groupHeaderFlex="unset"
-        groupHeaderAlignSelf="stretch"
-        groupHeaderTop="0"
-        groupHeaderPosition="sticky"
-      />
-      <GroupComponent4
-        checkoutSpacing="/checkout-spacing@2x.png"
-        checkout="Checkout"
-        checkout1="Checkout"
-      />
-      <section className="self-stretch bg-white flex flex-row items-start justify-start pt-[63px] pb-[52px] pl-[100px] pr-[98px] box-border gap-[26px] max-w-full mq800:pl-[50px] mq800:pr-[49px] mq800:box-border mq450:p-5 mq450:box-border mq1150:pt-[27px] mq1150:pb-[22px] mq1150:box-border mq1350:flex-wrap mq1350:pt-[41px] mq1350:pb-[34px] mq1350:box-border">
-        <div className="h-[1829px] w-[1440px] relative bg-white hidden max-w-full" />
-        <GroupComponent13 />
-        <GroupComponent12 />
+      <GroupComponent19 />
+      <section className="self-stretch flex flex-col items-start justify-start pt-0 px-0 pb-[29px] box-border max-w-full">
+        <HeroContent />
+        <GroupComponent20 />
+        <GroupComponent21 />
       </section>
-      <GroupComponent3 />
-      <GroupComponent2 aboutTextDecoration="unset" />
+      <NewArrivalImage />
+      <GroupComponent22 />
+      <FrameComponent4 />
     </div>
   );
 };
 
-export default Checkout;
+export default Home;

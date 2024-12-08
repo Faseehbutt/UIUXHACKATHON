@@ -11,7 +11,10 @@ module.exports = {
         black: "#000",
         gainsboro: "#d9d9d9",
         darkgray: "#9f9f9f",
-        snow: "#faf4f4",
+        snow: {
+          "100": "#faf5f5",
+          "200": "#faf4f4",
+        },
         darkgoldenrod: "#b88e2f",
         darkkhaki: "#cdba7b",
         mediumslateblue: "#816dfa",
@@ -50,6 +53,9 @@ module.exports = {
       "23xl": "42px",
       "15xl": "34px",
       "6xl": "25px",
+      "41xl": "60px",
+      "45xl": "64px",
+      "32xl": "51px",
       inherit: "inherit",
     },
     screens: {

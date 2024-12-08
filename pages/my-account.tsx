@@ -31,7 +31,11 @@ const MyAccount: NextPage = () => {
         <GroupComponent10 />
       </section>
       <GroupComponent3 />
-      <GroupComponent2 aboutTextDecoration="unset" />
+      <GroupComponent2
+        aboutTextDecoration="unset"
+        groupFooterBackgroundColor="#fff"
+        groupFooterMarginTop="unset"
+      />
     </div>
   );
 };
