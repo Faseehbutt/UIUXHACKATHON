@@ -21,7 +21,7 @@ export default function MyApp(props: AppProps) {
   return (
     <Fragment>
       <Head>
-        <title>Faseeh Butt's Team's Project</title>
+        <title>Faseeh Butt's Project</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
