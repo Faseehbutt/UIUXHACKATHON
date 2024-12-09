@@ -46,7 +46,7 @@ const GroupComponent: NextPage<GroupComponentType> = ({
       <div className="h-[100px] w-[1440px] relative bg-white hidden max-w-full" />
       <nav className="m-0 w-[543px] flex flex-col items-start justify-start pt-0.5 px-0 pb-0 box-border max-w-full mq750:hidden">
         <nav className="m-0 w-[430px] h-6 relative max-w-full text-left text-base text-black font-poppins">
-          <Link href="./" className="[text-decoration:none] absolute top-[0px] left-[0px] font-medium text-[inherit] inline-block w-[49px] h-6 min-w-[49px] z-[1]">
+          <Link href="/" className="[text-decoration:none] absolute top-[0px] left-[0px] font-medium text-[inherit] inline-block w-[49px] h-6 min-w-[49px] z-[1]">
             Home
            </Link>
           <a className="[text-decoration:none] absolute top-[0px] left-[123px] font-medium text-[inherit] inline-block w-[43px] h-6 min-w-[43px] z-[1]">
