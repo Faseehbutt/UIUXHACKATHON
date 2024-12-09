@@ -49,7 +49,7 @@ const GroupComponent: NextPage<GroupComponentType> = ({
           <Link href="/" className="[text-decoration:none] absolute top-[0px] left-[0px] font-medium text-[inherit] inline-block w-[49px] h-6 min-w-[49px] z-[1]">
             Home
            </Link>
-          <Link href="/shop" className="[text-decoration:none] absolute top-[0px] left-[123px] font-medium text-[inherit] inline-block w-[43px] h-6 min-w-[43px] z-[1]">
+          <Link href="/pages/shop" className="[text-decoration:none] absolute top-[0px] left-[123px] font-medium text-[inherit] inline-block w-[43px] h-6 min-w-[43px] z-[1]">
             Shop
          </Link>
            <Link href="/" className="[text-decoration:none] absolute top-[0px] left-[240px] font-medium text-[inherit] inline-block w-[50px] h-6 min-w-[50px] z-[1]">
